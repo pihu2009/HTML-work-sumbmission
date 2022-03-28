@@ -1,0 +1,245 @@
+.Angry{
+border:solid aquamarine ;
+margin-left: 60px;
+border-width: 20px;
+background-color: aquamarine;
+width: 40%;
+margin:50px;
+border-radius: 20px;
+}
+
+.Mario{
+border:solid rgb(186, 248, 14) ;
+margin-left: 60px;
+border-width: 20px;
+background-color: rgb(186, 248, 14);
+width: 40%;
+margin:50px;
+border-radius: 20px;
+}
+    
+.Trex{
+border:solid rgb(235, 86, 27) ;
+margin-left: 60px;
+border-width: 20px;
+background-color: rgb(235, 86, 27);
+width: 40%;
+margin:50px;
+border-radius: 20px;
+}
+        
+.Newton{
+border:solid rgb(31, 139, 240) ;
+margin-left: 60px;
+border-width: 20px;
+background-color:  rgb(31, 139, 240);
+width: 40%;
+margin: 50px;
+border-radius: 20px;
+}
+            
+.Air{
+border:solid rgb(240, 170, 19) ;
+margin-left: 60px;
+border-width: 20px;
+background-color: rgb(240, 170, 19);
+width: 40%;
+margin:50px ;
+border-radius: 20px;
+}
+
+.Snake{
+border:solid rgb(19, 240, 85) ;
+margin-left: 60px;
+border-width: 20px;
+background-color: rgb(19, 240, 85);
+width: 40%;
+margin:50px ;
+border-radius: 20px;
+}
+
+.Piano{
+border:solid rgb(51, 59,54) ;
+margin-left: 60px;
+border-width: 20px;
+background-color: rgb(51, 59,54);
+width: 40%;
+margin:50px ;
+border-radius: 20px;
+color:azure
+}
+
+.Robot{
+border:solid rgb(240, 170, 19) ;
+margin-left: 60px;
+border-width: 20px;
+background-color: rgb(240, 170, 19);
+width: 40%;
+margin:50px ;
+border-radius: 20px;
+}
+    
+.Maze{
+border:solid rgb(240, 236, 19) ;
+margin-left: 60px;
+border-width: 20px;
+background-color: rgb(240, 236, 19);
+width: 40%;
+margin:50px ;
+border-radius: 20px;
+}
+
+.Balloon{
+border:solid rgb(240, 236, 19) ;
+margin-left: 60px;
+border-width: 20px;
+background-color: rgb(240, 236, 19);
+width: 40%;
+margin:50px ;
+border-radius: 20px;
+}
+
+
+.games{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+background-image: linear-gradient(#06d6a0,#8b8586);
+}
+
+.My{
+width: 50%;
+margin:50px ;
+border-radius: 20px;
+
+}
+
+.heading{
+width:fit-content;
+height: 100px;
+background-color: #06d6a0;
+border-radius: 10px;
+text-align: center;
+padding: 20px;
+font-size: 20px;
+justify-content: center;
+align-items: center;
+align-self: center;
+}
+
+Body{
+background-image:linear-gradient(#6AD9F1,#ff6e6e);
+}
+
+.Image {
+margin-left: 650px;
+width:fit-content;
+border-radius: 20%;
+background-color: aliceblue;
+}
+
+.Certificate{
+margin-left: 600px;
+width:fit-content;
+border-radius: 20%;
+}
+
+
+
+.header .about{
+border: solid aqua;
+background-color: rgb(155, 247, 8);
+border-radius: 100px;
+width: 200px;
+display:flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+}
+
+.header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.header .work{
+margin-left: 800px;
+width: 300px;
+}
+
+p{
+text-align: center;
+}
+
+hr{
+margin-left: 330px;
+}
+
+.games img{
+margin-left: 300px;
+border-radius: 50px;
+border: solid chartreuse;
+}
+
+.Angry:hover{
+transform:scale(1.2);
+background-image: linear-gradient(rgb(127,255,212),rgb(13, 233, 149));
+border-color: cornsilk;
+}
+
+.Mario:hover{
+transform:scale(1.2);
+background-image: linear-gradient(rgb(186,248,14),rgb(233, 218, 13));
+border-color: cornsilk;
+}
+
+.Trex:hover{
+transform:scale(1.2);
+background-image: linear-gradient(rgb(235,86,27),rgb(233, 138, 13));
+border-color: cornsilk;
+}
+
+.Newton:hover{
+transform:scale(1.2);
+background-image: linear-gradient(rgb(31,139, 240),rgb(13, 233, 222));
+border-color: cornsilk;
+}
+
+.Air:hover{
+transform:scale(1.2);
+background-image: linear-gradient(rgb(240, 170, 19),rgb(233, 229, 13));
+border-color: cornsilk;
+}
+
+.Snake:hover{
+transform:scale(1.2);
+background-image: linear-gradient(rgb(19, 240, 85),rgb(13, 233, 160));
+border-color: cornsilk;
+}
+
+.Piano:hover{
+transform:scale(1.2);
+background-image: linear-gradient(rgb(51, 59,54),rgb(120, 126, 122));
+border-color: cornsilk;
+}
+
+.Robot:hover{
+transform:scale(1.2);
+background-image: linear-gradient(rgb(240, 170, 19),rgb(233, 229, 13));
+border-color: cornsilk;
+}
+
+.Maze:hover{
+transform:scale(1.2);
+background-image: linear-gradient(rgb(240, 170, 19),rgb(233, 229, 13));
+border-color: cornsilk;
+}
+
+a:link{
+color: rgb(0, 38, 255);
+}
+
+a:visited{ 
+color:rgb(30, 203, 247) ;
+}
